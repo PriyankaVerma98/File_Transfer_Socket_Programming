@@ -1,0 +1,7 @@
+File Transfer using Selective Repeat protocol over UDP
+Input file is read PACKET_SIZE bytes at a time and is encapsulated in the form of the struct ‘packet’. The packets are encoded in the form of string for sending to relay0 or relay1, which then forward them to the server. 
+The client makes and sends ‘sendWindow’ no of packets at a time and waits to receive all the acks. Packets within the sender window for which acks are not received within ‘TIMEOUT’ seconds are re-sent. The window is moved forward by ‘sendWindow’ size to implement a common timer for all the packets within the window.
+
+Transmission of packets 
+Even no. packets are sent via channel #0 and odd no. packets via channel #1. However, the acknowledgement packets are received from any channel.
+The relay0 and relay1 each randomly drop 10% (set with macro PDR) of the incoming packets. Each of them also adds a delay of a few milliseconds.
