@@ -1,7 +1,9 @@
 # File_Transfer_Socket_Programming
 
-programming_assignment.pdf : contains two tasks
+programming_assignment.pdf : contains the two questions
+
 Q1 : contains my solution files for Question1
+
 Q2 : contains my solution files for Question2
 
 --- 
