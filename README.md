@@ -1,3 +1,7 @@
+This repository contains the assignment submission for the course 'Computer Networks: CN F303' at BITS Pilani by me.
+
+---
+
 # Files Structure
 
 - programming_assignment.pdf : contains the two questions
@@ -9,6 +13,3 @@
 - Readme.txt : contains my solution approach
 
 - code demo is shown in .mp4 files
-
---- 
-This assignment was part for partial filfillment of course *Computer Networks :  CN F303* at BITS Pilani.
